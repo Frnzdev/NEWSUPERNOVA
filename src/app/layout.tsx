@@ -12,6 +12,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Conhecendo a Supernova ENT",
   description: "Conheça a maior gravadora independente do Brasil",
+  openGraph: {
+    images: [
+      {
+        url: "/LOGO_SUPERNOVA__WHITE-1024x358.png",
+        width: 1024,
+        height: 358,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
